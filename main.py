@@ -25,9 +25,12 @@ def extract_skills(text):
     doc = nlp(text.lower())
 
     skills_db = [
-        "python", "java", "sql", "machine learning",
-        "data analysis", "html", "css", "javascript",
-        "c++", "communication", "teamwork"
+    "python", "java", "sql", "machine learning",
+    "data analysis", "html", "css", "javascript",
+    "react", "c++", "excel", "statistics",
+    "apis", "databases", "linux", "networking",
+    "security", "aws", "docker", "kubernetes",
+    "mongodb", "flask", "c#"
     ]
 
     found_skills = []
@@ -56,10 +59,13 @@ def recommend_career(skills):
 # === NEW: SKILL GAP ANALYSIS ===
 def skill_gap_analysis(career, skills):
     career_requirements = {
-        "Data Analyst": ["python", "sql", "data analysis"],
-        "Machine Learning Engineer": ["python", "machine learning", "statistics"],
-        "Web Developer": ["html", "css", "javascript"],
-        "Software Developer": ["java", "algorithms", "data structures"]
+        "Data Analyst": ["python", "sql", "data analysis", "excel", "statistics"],
+        "Machine Learning Engineer": ["python", "machine learning", "statistics", "deep learning"],
+        "Backend Developer": ["java", "sql", "apis", "databases"],
+        "Web Developer": ["html", "css", "javascript", "react"],
+        "Cybersecurity Analyst": ["networking", "security", "linux", "python"],
+        "Mobile App Developer": ["java", "kotlin", "flutter", "android", "flask"],
+        "Cloud Engineer": ["aws", "docker", "kubernetes", "linux", "azure"]
     }
 
     required = career_requirements.get(career, [])

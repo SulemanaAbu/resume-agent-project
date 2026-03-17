@@ -15,7 +15,7 @@ async def main():
     await recommendation_agent.start()
 
     print("Waiting for agents to initialize...")
-    await asyncio.sleep(20)
+    await asyncio.sleep(10)
 
     # Start sender AFTER
     await resume_agent.start()
