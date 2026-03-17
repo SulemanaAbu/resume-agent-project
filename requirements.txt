@@ -1,0 +1,5 @@
+spade
+spacy
+pandas
+PyPDF2
+scikit-learn
