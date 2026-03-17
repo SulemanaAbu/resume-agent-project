@@ -9,7 +9,7 @@ def get_career_database():
     return {
         "Data Analyst": ["python", "sql", "data analysis", "excel", "statistics"],
         "Machine Learning Engineer": ["python", "machine learning", "statistics", "deep learning"],
-        "Backend Developer": ["java", "sql", "apis", "databases"],
+        "Backend Developer": ["java", "sql", "api design", "databases"],
         "Web Developer": ["html", "css", "javascript", "react"],
         "Cybersecurity Analyst": ["networking", "security", "linux", "python"],
         "Mobile App Developer": ["java", "kotlin", "flutter", "android", "flask"],
