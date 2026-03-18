@@ -1,3 +1,0 @@
-John Doe
-Skills: Python, SQL, Data Analysis
-Experience: Internship in Data Science

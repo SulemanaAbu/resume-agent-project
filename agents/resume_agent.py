@@ -20,9 +20,10 @@ def extract_skills(text):
     "python", "java", "sql", "machine learning",
     "data analysis", "html", "css", "javascript",
     "react", "c++", "excel", "statistics",
-    "apis", "databases", "linux", "networking",
+    "api design", "databases", "linux", "networking",
     "security", "aws", "docker", "kubernetes",
-    "mongodb", "flask", "c#"
+    "mongodb", "flask", "c#", "graphql",
+     "postgresql", "restapi", "mysql"
 ]
     found = [skill for skill in skills_db if skill in text.lower()]
     return list(set(found))

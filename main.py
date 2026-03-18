@@ -99,4 +99,4 @@ def agent_loop(file_path):
 
 
 if __name__ == "__main__":
-    agent_loop("data/sample_resume.pdf")
+    agent_loop("data/test_resume.pdf")
